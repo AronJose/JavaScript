@@ -45,4 +45,3 @@ myFuctin = (c) =>{
      */
     let myArray =["test",25,"value"]
 
-    
