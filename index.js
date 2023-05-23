@@ -84,3 +84,68 @@ myFuctin = (c) =>{
     //slice use cheyunnath kond index vecha store cheyunne ,So once value onn vende "slice(1)" first index thot stor akum.
     Array.sort();//Array sort cheyam.
     Array.reverse();//Array reverse cheyth ezhutham.
+
+// If Statement
+    //Syntax
+      if(condition){
+
+      }else{
+
+      }
+    //if else if
+      if(condition){
+
+      }else if(condition){
+
+      }else{
+
+      }
+//Eg:
+      let aronAge=24;
+      if(aronAge ===30){
+            console.log("not an age of aron");
+      }else if(aronAge>=20 && aronAge<=10){
+            console.log("age of aron");
+      }else{
+            console.log("age");
+      }
+
+// switch Statement
+      let Fruites="Apple";
+      switch(Fruites){
+            case"Apple":
+                  console.log("it is Apple");
+            break;
+            case"Banana":
+                  console.log("It is Banana");
+            break;
+            default :
+                  console.log("default");
+      }
+
+//Loop
+     //For Loop
+            let count=10;
+            for(let i=0;i<=10;i++){
+                  console.log(i);
+            }
+      //While loop
+            let c=0;
+            while(c<=10){
+                  console.log(c);
+                  c++;
+            }
+
+            //next case
+            let co=10;
+            while(co<=10){
+                  console.log(co);
+                  break;//check cheyth value mathram print cheyum infinite loop akulla
+            }
+
+      //DO While
+            let t=0;
+            do{
+                  console.log(t);
+                  t++;
+            }while(t<=10);
