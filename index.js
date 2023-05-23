@@ -149,3 +149,43 @@ myFuctin = (c) =>{
                   console.log(t);
                   t++;
             }while(t<=10);
+
+/* Looping statement using Array */
+   /*For loop using Array*/
+       let array=["Aron","Gisna","shan","Silpa"];
+       for(let i=0;i<array.length;i++){
+            document.write(array[i]);//"document.write()" koduthal inteface display cheyum ,print cheyan.
+       }
+  /*For "of" Loop ,it is more easly to write */
+       for(let x of array){
+            document.write(x);
+       }
+
+ /*For loop used to print Objects */
+    let mArray ={
+      name:"Aron",
+      age:24
+    }
+       for(let x in mArray){
+            document.write(mArray[x]);
+       }//Object loop cheyan us cheyunna onnann "in"
+
+// Events
+       /* oru button click cheyumbol alert varunnath angane ollathinnann events use cheyunnath 
+       first HTML poy button set  cheyanam ennit avide "onclick="function name" "
+       second funnction set cheynam script akath.*/
+       function Alert(){
+            alert("alert");
+       }
+
+       /*Most popular ayyt use cheyunnath click events given below */
+       let btn=document.getElementById('btn');// HTML id vech button set akkanam.
+
+       addEventListener('click',function(){
+            alert("helow");
+       });//"click" use cheyunna event ann,"addEventListener" use cheyunna oru event ann.
+               //OR
+       addEventListener('click',myFun());
+            function myFun(){
+                  alert("helow");
+            }
