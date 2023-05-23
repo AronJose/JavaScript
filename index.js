@@ -38,6 +38,11 @@ myFuctin = (c) =>{
       DOB :"19-06-98"
     };//let objectname ={ variablename:"value",variablename:"value",};
 
+// Object Methods
+    //key : value
+    myObject.name ="Jose";//Edit
+    delete myObject.name;//Delete
+
 
 // Aarray in JavaScript
     /*
