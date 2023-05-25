@@ -17,12 +17,13 @@
       myFunction(10);
 
 // Arrow Function 
- /* Now a day most poppulat is Arrow function 
- function name = (parameter) => retuen parameter
- */
-myFuctin = (c) =>{
-      return c;
-}
+      /* Now a day most poppulat is Arrow function 
+      function name = (parameter) => retuen parameter
+      */
+     const myFuctin = (c) =>{
+            return c;
+      }
+      myFuctin();
 
 // Objects
    /*
